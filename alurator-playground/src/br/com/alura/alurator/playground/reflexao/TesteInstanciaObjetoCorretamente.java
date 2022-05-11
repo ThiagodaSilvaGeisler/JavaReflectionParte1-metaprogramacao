@@ -17,6 +17,9 @@ public class TesteInstanciaObjetoCorretamente {
 		Class<?> controleClasse1 = 
 				Class.forName("br.com.alura.alurator.playground.controle.Controle");
 		
+		
+		controleClasse1.getDeclaredConstructor().newInstance();
+		
 			Constructor<SubControle> constructorSubControle = 
 				subControleClasse1.getDeclaredConstructor();
 		
@@ -25,7 +28,7 @@ public class TesteInstanciaObjetoCorretamente {
 		
 		
 		constructorSubControle.setAccessible(true);
-		SubControle subControle = constructorSubControle.newInstance();
+		Object subControle = constructorSubControle.newInstance();
 		
 		
 		
