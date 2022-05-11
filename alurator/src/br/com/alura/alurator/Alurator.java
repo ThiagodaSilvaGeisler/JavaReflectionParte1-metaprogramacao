@@ -28,11 +28,7 @@ public class Alurator {
 			.getConstrutorPadrao()
 			.invoca();
 			
-			
-			
-//			Class <?> classeControle = Class.forName(pacoteBase + nomeControle);
-//			Object instanciaControle = classeControle.getDeclaredConstructor().newInstance();
-//			
+		
 			System.out.println(instanciaControle);
 			return null;
 		
