@@ -31,5 +31,6 @@ public class TesteInvocaMetodoSemParametro {
 			
 			System.out.println(retorno);
 
+			
 	}
 }
